@@ -1,0 +1,11 @@
+{
+    "blacklist": {},
+    "bots": [],
+    "mimic": {
+        "copy": false,
+        "status": false,
+        "target": {
+            "u51c881d9287ef79f84a8727706a1a8b8": true,"u09b80ef1f1bc3a2de5840a9b3aaa3449":true
+        }
+    }
+}
