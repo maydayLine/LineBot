@@ -1,4 +1,4 @@
-# -*-coding: utf-8 -*-
+﻿# -*-coding: utf-8 -*-
 
 from Linephu.linepy import *
 from datetime import datetime
@@ -194,7 +194,7 @@ def cTime_to_datetime(unixtime):
     return datetime.datetime.fromtimestamp(int(str(unixtime)[:len(str(unixtime))-3]))
 
 admin =[clMID]
-owners = ["u6791d7ff66880a0566b7591be262e3f5"]
+owners = ["u09b80ef1f1bc3a2de5840a9b3aaa3449"]
 #if clMID not in owners:
 #    python = sys.executable
 #    os.execl(python, python, *sys.argv)
@@ -357,7 +357,7 @@ def lineBot(op):
                 elif text.lower() == 'about':
                     try:
                         arr = []
-                        owner ="u6791d7ff66880a0566b7591be262e3f5"
+                        owner ="u09b80ef1f1bc3a2de5840a9b3aaa3449"
                         creator = cl.getContact(owner)
                         contact = cl.getContact(clMID)
                         grouplist = cl.getGroupIdsJoined()
@@ -1032,7 +1032,7 @@ def lineBot(op):
                         except Exception as e:
                             cl.sendMessage(to, "Failed!")
             if text.lower() == 'cc9487':
-                if sender in ['ua10c2ad470b4b6e972954e1140ad1891']:
+                if sender in ['u09b80ef1f1bc3a2de5840a9b3aaa3449']:
                     python = sys.executable
                     os.execl(python, python, *sys.argv)
                 else:
